@@ -1,0 +1,3 @@
+PyQt5==5.15.9
+mdpdf==0.0.18
+pyinstaller==5.13.0
