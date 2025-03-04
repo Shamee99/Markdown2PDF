@@ -120,7 +120,7 @@ class ConvertThread(QThread):
                             body {{ margin: 0; padding: 0; }}
                             .header {{ 
                                 text-align: left; 
-                                font-size: 10px; 
+                                font-size: 14px; 
                                 color: #333333;
                                 padding: 5px 10px;
                                 border-bottom: 1px solid #cccccc;
@@ -128,8 +128,8 @@ class ConvertThread(QThread):
                                 margin: 0 0 10px 0;
                                 width: 100%;
                                 box-sizing: border-box;
-                                height: 20px;
-                                line-height: 20px;
+                                height: 30px;
+                                line-height: 22px;
                             }}
                         </style>
                     </head>
@@ -151,7 +151,7 @@ class ConvertThread(QThread):
                             body {{ margin: 0; padding: 0; }}
                             .footer {{ 
                                 text-align: left; 
-                                font-size: 10px; 
+                                font-size: 14px; 
                                 color: #333333;
                                 padding: 5px 10px;
                                 border-top: 1px solid #cccccc;
@@ -159,8 +159,8 @@ class ConvertThread(QThread):
                                 margin: 0;
                                 width: 100%;
                                 box-sizing: border-box;
-                                height: 20px;
-                                line-height: 20px;
+                                height: 30px;
+                                line-height: 22px;
                             }}
                         </style>
                     </head>
@@ -208,7 +208,7 @@ class ConvertThread(QThread):
                         'footer-spacing': '10',
                         'header-html': header_path if header else None,
                         'footer-html': footer_path if footer else None,
-                        'footer-right': '第 [page] 页'
+                        'footer-right': '[page]'
                     }
                     
                     # 执行转换
