@@ -95,3 +95,12 @@ pyinstaller --name="Markdown2PDF" --windowed --icon=icon/logo.png --add-data="wk
 ## 许可证
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+
+
+## 关注我们
+
+欢迎关注我的个人公众号，分享更多技术干货和学习心得！
+
+**公众号名称：** [柴比特 ChaiBit]
+
+![qrcode_for_gh_39e6976c8824_344](https://github.com/user-attachments/assets/a0713a4e-5664-474f-b10e-bd2431d47ae2)
